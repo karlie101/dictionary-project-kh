@@ -14,7 +14,8 @@ export default function App() {
           <Dictionary />
          </main>
          <footer className="App-footer">
-            <small>Coded by Karlie</small>
+            <small>Coded and {" "} 
+            <a href="https://github.com/karlie101/dictionary-project-kh">open-sourced</a>{""} by Karlie Howard</small>
          </footer>
       </div>
     </div>
