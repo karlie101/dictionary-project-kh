@@ -1,5 +1,23 @@
+.text {
+color: #FFFFFF;
+font-size: 13px;
+font-style: italic;
+margin-top: 10px;
+}
+
+.definition {
+  color: burlywood;
+  font-weight: bold;
+  font-size: 24px;
+}
+
 .text::first-letter {
   text-transform: capitalize;
+
+}
+
+.Meanings {
+  line-height: 1.5;
 }
 
 .Meanings p::first-letter {

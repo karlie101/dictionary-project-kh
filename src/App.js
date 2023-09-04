@@ -11,11 +11,11 @@ export default function App() {
         alt="dictionary" />
          </header>
          <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="ambitious" />
          </main>
-         <footer className="App-footer">
+         <footer className="App-footer text-center">
             <small>Coded and {" "} 
-            <a href="https://github.com/karlie101/dictionary-project-kh">open-sourced</a>{""} by Karlie Howard</small>
+            <a href="https://github.com/karlie101/dictionary-project-kh">open-sourced</a>{""} with 🖤 by Karlie Howard</small>
          </footer>
       </div>
     </div>

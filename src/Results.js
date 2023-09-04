@@ -1,5 +1,6 @@
 import React from "react";
 import Meanings from "./Meanings";
+import "./Results.css"
 
 export default function Results(props){
   if (props.results) {
@@ -11,13 +12,14 @@ export default function Results(props){
           </section>
         {props.results.meanings.map(function (meanings, index) {
           return (
-            <div key={index}>
+            <section key={index}>
               <Meanings meanings={meanings} />
-            </div>
+            </section>
           );
         })}
 
       </div>
+      
     
     );
   } else {

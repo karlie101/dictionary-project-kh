@@ -2,3 +2,31 @@
   padding: 20px;
   
 }
+
+.Dictionary h1 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.Dictionary section {
+  background: linear-gradient(107deg, rgb(255, 67, 5) 11.1%, rgb(245, 135, 0) 95.3%);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 10px rgb(0 0 0 / 10%);
+  margin: 20px 0;
+  color: #333;
+}
+
+.Dictionary input {
+  width: 100%;
+  border-radius: 6px;
+  padding: 6px 10px;
+  color: #333;
+  border: 1px solid #ddd;
+}
+
+.Dictionary .hint {
+  font-size: 11px;
+  margin-top: 5px;
+}
